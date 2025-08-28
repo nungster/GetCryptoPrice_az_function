@@ -1,2 +1,19 @@
 # GetCryptoPrice_az_function
-An Azure Powershell function that calls the free public CoinGecko API to pul data back vi an http trigger.
+An Azure Powershell function that calls the free public CoinGecko API to pull data back vi an http trigger.
+At the moment, this code will only run locally usign Azure Development tools.
+
+# Pre-requisites For Local Development Setup
+	•	[PowerShell 7+](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)
+	•	[Azure Functions Core Tools v4](https://learn.microsoft.com/azure/azure-functions/functions-run-local)
+	•	[].NET SDK 6 or higher](https://dotnet.microsoft.com/en-us/download/dotnet)
+
+
+# Running this function locally
+
+Clone this repo
+
+From the root of the repo run:
+```
+func start
+```
+
