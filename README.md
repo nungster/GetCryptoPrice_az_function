@@ -22,5 +22,5 @@ http://localhost:7071/api/GetCryptoPrice
 ```
 The default crypto currency is bitcoin, but other coins can be requested using the coin attribute like:
 ```
-http://localhost:7071/api/GetCryptoPrice?coin=tether?coin=ethereum
+http://localhost:7071/api/GetCryptoPrice?coin=ethereum
 ```
